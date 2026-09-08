@@ -223,7 +223,7 @@ if nav_choice == "📊 Financial Dashboard":
             user.get_retire_goal(retire_age, life_age, monthly_cost)
             
             if customize_allocation:
-                invest_plan = [low_risk_ratio, mid_risk_ratio, high_risk_ratio, veryhigh_risk_ratio]
+                invest_plan = [low_risk_ratio/100, mid_risk_ratio/100, high_risk_ratio/100, veryhigh_risk_ratio/100]
                 user.get_invest_plan(invest_plan)
             else:
                 user.get_invest_plan()
