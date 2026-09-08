@@ -1,0 +1,23 @@
+{
+    "personal": 60000,
+    "spouse": 0,
+    "firstchild": 0,
+    "secondchild": 0,
+    "father": 0,
+    "mother": 0,
+    "spousefather": 0,
+    "spousemother": 0,
+    "disableperson": 0,
+    "pregnancy": 0,
+    "insurance": 100000,
+    "healthinsurance": 25000,
+    "parentinsurance": 15000,
+    "spouseinsurance": 10000,
+    "pvd": 10000,
+    "ssf": 10000,
+    "rmf": 10000,
+    "pensioninsurance": 10000,
+    "socialinsurance": 9000,
+    "mortgageinterest": 10000,
+    "donation": 5000
+}
