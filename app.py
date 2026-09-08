@@ -101,13 +101,13 @@ st.markdown("""
     div[data-testid="stTabPanel"] h1,
     div[data-testid="stTabPanel"] h2,
     div[data-testid="stTabPanel"] h3 {
-        margin-top: 0.2rem !important;
+        margin-top: 0.5rem !important;
         padding-top: 0rem !important;
     }
 
     /* 4. ลดขนาดระยะห่างของ st.divider() */
     hr {
-        margin-top: 0.8rem !important;
+        margin-top: 1 rem !important;
         margin-bottom: 0.8rem !important;
     }
     /* 1. เจาะจง st.metric label ทุกชั้น */
