@@ -18,12 +18,14 @@ class Retirement:
     def simulation(self, verbose=False):
         retire_fund = self.cal_fund()
         retire_duration = self.life_age - self.retire_age
+        
         if verbose:
             print(f"Your goal is to retire at age {self.retire_age}.")
             print(f"You plan to spend {retire_duration} years in retirement.")
             print(f"To live freely and comfortably in old age, you should have a retirement fund of {retire_fund:,.2f} baht.")
             print(f"*"*100)
             print(f"\n")
+            
         return {
             "name": self.name,
             "retire_age": self.retire_age,

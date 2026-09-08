@@ -82,19 +82,19 @@ st.markdown("""
     /* ปรับขนาดตัวอักษรของชื่อ Tab โดยเฉพาะ */
     div[data-testid="stTabs"] button div[data-testid="stMarkdownContainer"] p,
     div[data-testid="stTabs"] button p {
-        font-size: 1.4rem !important;
+        font-size: 1.3rem !important;
         font-weight: 700 !important;
         line-height: 1.5 !important;
     }
     /* 1. ดันแถบ Tabs ขึ้นไปชิดเส้น divider ด้านบน */
     div[data-testid="stTabs"] {
-        margin-top: -1rem !important;
+        margin-top: -0.5rem !important;
     }
 
     /* 2. ดึงเนื้อหาภายใน Tab ขึ้นมาชิดปุ่ม Tab Header */
     div[data-testid="stTabPanel"] {
         padding-top: 0rem !important;
-        margin-top: -0.5rem !important;
+        margin-top: -0.2rem !important;
     }
 
     /* 3. ลบ Margin บนสุดของหัวข้อภายใน Tab */

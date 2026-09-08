@@ -9,10 +9,8 @@ class TaxPlanning:
 
     @staticmethod
     def cal_tax(year_income):
-        
         if year_income <= 150000:
             return 0
-        
         brackets = [
             (150000, 300000, 0.05),
             (300000, 500000, 0.10),
